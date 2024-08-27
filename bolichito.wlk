@@ -33,7 +33,7 @@ object bolichito{
 
     method puedeMejorar(){
         return(
-            self.estaEquilibrado() || self.esMonocromaticos()
+            !self.estaEquilibrado() || self.esMonocromaticos()
         )
     }
 
