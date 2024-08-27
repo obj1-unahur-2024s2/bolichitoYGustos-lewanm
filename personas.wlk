@@ -23,9 +23,3 @@ object juan{
         )
     }
 }
-
-object prueba{
-    var miArr = 1..5
-    method miArr() =  miArr
-
-}
