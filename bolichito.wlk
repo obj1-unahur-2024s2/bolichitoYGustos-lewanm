@@ -1,7 +1,5 @@
 import personas.*
 import objetos.*
-import colores.*
-import materiales.*
 
 object bolichito{
     var property objetoEnVidrieda = remera
@@ -14,7 +12,7 @@ object bolichito{
         )
     }
 
-    method sonMonocromaticos(){
+    method esMonocromaticos(){
         return(
             objetoEnVidrieda.color() === objetoEnMostrador.color()
         )
@@ -35,7 +33,7 @@ object bolichito{
 
     method puedeMejorar(){
         return(
-            self.estaEquilibrado() || self.sonMonocromaticos()
+            self.estaEquilibrado() || self.esMonocromaticos()
         )
     }
 
