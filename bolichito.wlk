@@ -1,6 +1,6 @@
 import personas.*
 import objetos.*
-
+//Comentario para tirar un commit ya que no sabia que tenia otra cuenta en mi notebook :(
 object bolichito{
     var property objetoEnVidrieda = remera
     var property objetoEnMostrador = pelota
